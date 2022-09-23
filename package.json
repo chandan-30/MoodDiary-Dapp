@@ -1,0 +1,13 @@
+{
+  "homepage": "https://chandan-30.github.io/MoodDiary-Dapp",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "ethers": "^5.7.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
